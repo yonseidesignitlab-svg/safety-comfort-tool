@@ -1,0 +1,12 @@
+numpy>=1.26
+pandas>=2.1
+python-dotenv
+geopandas>=0.14
+shapely>=2.0
+pyproj
+osmnx>=1.9
+requests>=2.31
+pillow>=10.0
+matplotlib>=3.8
+torch>=2.0
+torchvision>=0.15

@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "source": "서울교통공사 일평균 승하차 인원 + 도시 맥락 다양성 + 시설 데이터 품질",
+    "selection_criteria": "유동인구 ≥ 30,000명/일 AND CCTV ≥ 30 AND Bell ≥ 30 AND Light ≥ 50 within 500m",
+    "analysis_radius_m": 300,
+    "purpose": "Station-radius evaluation of street-environment safety and comfort",
+    "history": "2026-05-21: revised — dropped 잠실(Bell=3,Light=1), 합정(Light=20), 교대(Bell=1); added 건대입구, 신도림, 문래"
+  },
+  "stations": [
+    {
+      "slug": "city_hall",
+      "name_ko": "시청",
+      "name_en": "City Hall",
+      "lat": 37.5663,
+      "lng": 126.9779,
+      "gu": "중구",
+      "gu_en": "Jung-gu",
+      "centrality_tier": "City Centre",
+      "context": "downtown_tourism",
+      "context_ko": "도심·관광",
+      "daily_traffic_k": 50
+    },
+    {
+      "slug": "euljiro_ipgu",
+      "name_ko": "을지로입구",
+      "name_en": "Euljiro 1-ga",
+      "lat": 37.5663,
+      "lng": 126.9826,
+      "gu": "중구",
+      "gu_en": "Jung-gu",
+      "centrality_tier": "City Centre",
+      "context": "downtown_business",
+      "context_ko": "도심·업무",
+      "daily_traffic_k": 50
+    },
+    {
+      "slug": "gangnam",
+      "name_ko": "강남",
+      "name_en": "Gangnam",
+      "lat": 37.4979,
+      "lng": 127.0276,
+      "gu": "강남구",
+      "gu_en": "Gangnam-gu",
+      "centrality_tier": "City Centre",
+      "context": "subcenter_business",
+      "context_ko": "부도심·업무",
+      "daily_traffic_k": 140
+    },
+    {
+      "slug": "samseong",
+      "name_ko": "삼성",
+      "name_en": "Samseong",
+      "lat": 37.5089,
+      "lng": 127.0633,
+      "gu": "강남구",
+      "gu_en": "Gangnam-gu",
+      "centrality_tier": "City Centre",
+      "context": "business_exhibition",
+      "context_ko": "업무·전시",
+      "daily_traffic_k": 90
+    },
+    {
+      "slug": "sinchon",
+      "name_ko": "신촌",
+      "name_en": "Sinchon",
+      "lat": 37.555,
+      "lng": 126.9367,
+      "gu": "서대문구",
+      "gu_en": "Seodaemun-gu",
+      "centrality_tier": "Regional Centre",
+      "context": "university",
+      "context_ko": "대학가",
+      "daily_traffic_k": 60
+    },
+    {
+      "slug": "hongdae_ipgu",
+      "name_ko": "홍대입구",
+      "name_en": "Hongik Univ.",
+      "lat": 37.5572,
+      "lng": 126.9239,
+      "gu": "마포구",
+      "gu_en": "Mapo-gu",
+      "centrality_tier": "District Centre",
+      "context": "university_commercial",
+      "context_ko": "대학가·상업",
+      "daily_traffic_k": 120
+    },
+    {
+      "slug": "konkuk_ipgu",
+      "name_ko": "건대입구",
+      "name_en": "Konkuk Univ.",
+      "lat": 37.5403,
+      "lng": 127.0703,
+      "gu": "광진구",
+      "gu_en": "Gwangjin-gu",
+      "centrality_tier": "District Centre",
+      "context": "university_commercial",
+      "context_ko": "대학가·상업",
+      "daily_traffic_k": 120
+    },
+    {
+      "slug": "sadang",
+      "name_ko": "사당",
+      "name_en": "Sadang",
+      "lat": 37.4766,
+      "lng": 126.9816,
+      "gu": "동작구",
+      "gu_en": "Dongjak-gu",
+      "centrality_tier": "Regional Centre",
+      "context": "transfer_residential",
+      "context_ko": "환승·주거",
+      "daily_traffic_k": 90
+    },
+    {
+      "slug": "sindorim",
+      "name_ko": "신도림",
+      "name_en": "Sindorim",
+      "lat": 37.5088,
+      "lng": 126.891,
+      "gu": "구로구",
+      "gu_en": "Guro-gu",
+      "centrality_tier": "District Centre",
+      "context": "transfer_hub",
+      "context_ko": "환승 거점",
+      "daily_traffic_k": 120
+    },
+    {
+      "slug": "mullae",
+      "name_ko": "문래",
+      "name_en": "Mullae",
+      "lat": 37.5179,
+      "lng": 126.8946,
+      "gu": "영등포구",
+      "gu_en": "Yeongdeungpo-gu",
+      "centrality_tier": "District Centre",
+      "context": "residential_industrial",
+      "context_ko": "주거·산업",
+      "daily_traffic_k": 30
+    }
+  ]
+}
