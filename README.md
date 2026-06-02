@@ -1,4 +1,4 @@
-# Street-Environment Safety & Comfort Evaluation
+# Safety-Comfort Tool
 
 A multi-agent tool that scores the **physical safety** (surveillance-facility density)
 and **visual comfort** (street-view openness) of subway station areas from public data,
